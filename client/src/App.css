@@ -1,0 +1,342 @@
+html *
+{
+  font-family: 'Heebo', "MS PGothic", sans-serif;
+}
+section{
+  scroll-behavior: smooth;
+}
+header
+{
+  position: fixed;
+  width: 100%;
+  z-index:99;
+  top:0;
+  left:0;
+  background-color: white;
+}
+#nav > a:hover
+{
+   cursor: pointer;
+}
+#nav > a
+{
+   text-decoration: none;
+   color: black;
+}
+#body-logo{
+  max-width: 1650px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+#nav
+{
+  position: relative;
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 76px;
+  text-transform: uppercase;
+}
+
+#nav > a
+{
+  padding: 10px 15px;
+}
+
+#logo
+{
+    background-image: url("/images/Tell-logo.jpg");
+    background-size: contain;
+    width: 100px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-right: 22px;
+}
+.colors
+{
+   display: flex;
+   width: 100%;
+}
+.color
+{
+   width: 25%;
+   height:4px;
+}
+#color-1
+{
+   background-color: #4d9add;
+}
+#color-2
+{
+  background-color: #e44134;;
+}
+#color-3
+{
+  background-color: #f8ad00;
+}
+#color-4
+{
+  background-color: #a0c900;
+}
+
+#properties,#about-tell,#careers-tell,#contact-us
+{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+#name,#career-name,#contact-name
+{
+   font-size: 2.2rem;
+   width: 100%;
+   text-align: center;
+   font-weight: bold;
+}
+
+.underline
+{
+   margin-top: 2px;
+   width: 230px;
+   height: 5px;
+   background-color: black;
+}
+
+#p-desc, #about-content1, #about-content2,.content
+{
+   max-width: 980px;
+   margin-top: 20px;
+   font-size: 20px;
+   color: rgb(70, 70, 70);
+   opacity: 0.8;
+   font-weight: 300;
+   letter-spacing: 1px;
+   margin-top: 38px;
+   font-family: 'Heebo', "MS PGothic", sans-serif;
+   line-height: 1.5rem;
+}
+.seperation
+{
+  max-width: 980px;
+  border: 1px solid #ededed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 84px;
+  margin-bottom: 84px;
+  width:100%;
+}
+.seperation.footer
+{
+  margin-bottom: 24px;
+}
+#p-images,#c-images
+{
+   width: 100%;
+   display: flex;
+   max-width: 980px;
+   margin-top: 50px;
+   flex-direction: column;
+   align-items: center;
+}
+.p-row,.c-row
+{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.p-row > img,.icon-wrapper
+{
+  padding: 20px;
+}
+
+
+#about-name
+{
+  font-size: 2.2rem;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+#about-img
+{
+    max-width: 980px;
+    width: 100%;
+    margin-top: 20px;
+    height: 210px;
+    background-image: url('/images/aboutus.jpg');
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.icon-text
+{
+  width: 50px;
+  height:50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-name
+{
+  font-size: 21px;
+  text-align: center;
+}
+
+.icon-wrapper
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+}
+.week
+{
+  background-image: url('/images/day.jpg');
+}
+.week-text
+{
+  color: #f8ad00;
+}
+.medical
+{
+  background-image: url('/images/Heart.jpg');
+}
+.medical-text
+{
+  color: #e44134;
+}
+.job
+{
+  background-image: url('/images/job.jpg');
+}
+.job-text
+{
+  color: #4d9add;
+}
+.maternity
+{
+  background-image: url('/images/Baby.jpg');
+}
+.maternity-text
+{
+  color: #4d9add;
+}
+.comp
+{
+  background-image: url('/images/money.jpg');
+}
+.comp-text
+{
+  color: #f8ad00;
+}
+.causal
+{
+  background-image: url('/images/cloth.jpg');
+}
+.causal-text
+{
+  color: #a0c900;
+}
+.icon-name
+{
+  margin-top: 20px;
+}
+.contact-wrapper
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 980px;
+  justify-content: space-between;
+
+}
+
+.contact-div
+{
+   width: 48%;
+   min-height: 573px;
+   min-width: 480px;
+   border-left: 1px solid #ededed;
+   border-right: 1px solid #ededed;
+   border-bottom: 1px solid #ededed;
+   margin-bottom: 20px;
+}
+.contact-content-wrapper
+{
+  width: 100%;
+}
+.contact-content
+{
+   margin-left: 30px;
+}
+.contact-head
+{
+  padding-top: 20px;
+  font-size: 30px;
+  color: #a0c900;
+  font-weight: bold;
+}
+.contact-email, .contact-address
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.con-email,.con-address
+{
+  width: 30%;
+}
+.email-address, .address-info
+{
+  width: 60%;
+}
+#footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+#footer-icon
+{
+   height: 15px;
+   width: 56px;
+   background-image: url('/images/Tell-logo.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.red
+{
+    background-color: #e44134;
+    width: 152px;
+}
+.green
+{
+    width: 172px;
+    background-color: #a0c900;
+}
+.blue
+{
+    background-color: #4d9add;
+}
+.orange
+{
+    background-color: #f8ad00;
+}
